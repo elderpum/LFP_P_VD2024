@@ -1,0 +1,16 @@
+{
+  "name": "clase-5",
+  "version": "1.0.0",
+  "description": "Prueba",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Elder Pum",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "graphviz": "0.0.9",
+    "typescript": "^5.7.2"
+  }
+}
