@@ -1,0 +1,17 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "Ejemplo de Clase Práctica para el analizador léxico",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elder Pum",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphviz": "0.0.9"
+  }
+}
