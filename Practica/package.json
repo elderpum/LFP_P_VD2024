@@ -10,6 +10,6 @@
   "author": "Elder Pum",
   "license": "ISC",
   "dependencies": {
-    "graphviz": "^0.0.9"
+    "graphviz": "0.0.9"
   }
 }

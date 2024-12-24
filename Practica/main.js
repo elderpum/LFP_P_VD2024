@@ -1,6 +1,7 @@
 // Menú interactivo
 const readline = require('readline');
 const fs = require('fs');
+const exec = require('child_process').exec;
 
 // Clase Lexema
 class Lexema {
@@ -90,6 +91,7 @@ function menu() {
     console.log('1. Analizar texto');
     console.log('2. Obtener Reportes');
     console.log('3. Imprimir JSON xd');
+    console.log('4. Generar grafo');
     console.log('0. Salir');
     rl.question('Seleccione una opción: ', (answer) => {
         opcion = parseInt(answer);
@@ -104,6 +106,10 @@ function menu() {
                 break;
             case 3:
                 leerJSONs(textoMatematico);
+                menu();
+                break;
+            case 4:
+                generarGrafo();
                 menu();
                 break;
             case 0:
@@ -371,6 +377,38 @@ function leerJSONs(texto){
             });
         } else {
             console.log(`Valor2: ${element.valor2}`);
+        }
+    });
+}
+
+// Función para generar un grafo
+function generarGrafo() {
+    let dot = ` digraph G {
+    node [shape=box];
+    node [style=filled];
+    node [color="#000000"];
+    edge [color="#31cbd2"];
+    rankdir=LR;
+    node0 [label="Operaciones"];
+    node1 [label="Configuraciones"];
+    node0 -> node1;
+    }\n
+    `;
+
+    // Guardamos el archivo dot
+    fs.writeFile('grafo.dot', dot, (error) => {
+        if (error) {
+            console.log('Error al generar el archivo DOT');
+        } else {
+            console.log('Archivo DOT generado correctamente');
+            // Renderizamos el archivo DOT en un png
+            exec('dot -Tpng grafo.dot -o grafo.png', (error) => {
+                if (error) {
+                    console.log('Error al generar el archivo PNG');
+                } else {
+                    console.log('Archivo PNG generado correctamente');
+                }
+            });
         }
     });
 }

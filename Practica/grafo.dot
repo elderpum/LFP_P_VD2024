@@ -1,0 +1,11 @@
+ digraph G {
+    node [shape=circle];
+    node [color="#000000"];
+    edge [color="#31cbd2"];
+    rankdir=LR;
+    node0 [label="Operaciones"];
+    node1 [label="Configuraciones"];
+    node0 -> node1;
+    }
+
+    
