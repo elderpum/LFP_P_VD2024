@@ -1,38 +1,31 @@
 <div class="container">
   <h1>NodeLex</h1>
-
-  <textarea
-    [(ngModel)]="codigo"
-    rows="10"
-    cols="50"
-    placeholder="Escribe tu código aquí..."
-  ></textarea>
-  <br />
-
-  <button (click)="analizar()">Analizar Código</button>
-
-  <div *ngIf="lexemas.length > 0">
-    <h2>Tokens</h2>
-    <table border="1">
-      <tr>
-        <th>#</th>
-        <th>Tipo</th>
-        <th>Valor</th>
-      </tr>
-      <tr *ngFor="let lexema of lexemas; let i = index">
-        <td>{{ i + 1 }}</td>
-        <td>{{ lexema.tipo }}</td>
-        <td>{{ lexema.valor }}</td>
-      </tr>
-    </table>
+  <br>
+  <div class="row">
+    <div class="col">
+      <textarea
+        [(ngModel)]="codigo"
+        rows="10"
+        cols="50"
+        placeholder="Escribe tu código aquí..."
+      ></textarea>
+    </div>
+    <div class="col">
+      <textarea
+        [(ngModel)]="consola"
+        rows="10"
+        cols="50"
+        placeholder="CMD NodeLex"
+        readonly
+      ></textarea>
+    </div>
   </div>
-
-  <div *ngIf="errores.length > 0">
-    <h2>Errores Léxicos</h2>
-    <ul>
-      <li *ngFor="let error of errores">
-        {{ error.valor }}: {{ error.descripcion }}
-      </li>
-    </ul>
+</div>
+<div class="container containerBotones">
+  <div class="row">
+    <div class="col" style="text-align: right;">
+      <button mat-raised-button type="button" class="margenBoton" (click)="analizar()">Analizar Código</button>
+      <button mat-raised-button type="button" class="margenBoton" (click)="limpiar()">Limpiar Consola</button>
+    </div>
   </div>
 </div>
