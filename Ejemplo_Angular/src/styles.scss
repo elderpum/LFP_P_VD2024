@@ -1,1 +1,234 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1004%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M873.33 45.33a55.36 55.36 0 1 0-108.85 20.22z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M82.94 105.02 a53.09 53.09 0 1 0 106.18 0 a53.09 53.09 0 1 0 -106.18 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M281.06 546.2 a49.53 49.53 0 1 0 99.06 0 a49.53 49.53 0 1 0 -99.06 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M153.25 351.68L185.61 351.68L185.61 384.04L153.25 384.04z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M784.93 82.13L815.98 82.13L815.98 82.58L784.93 82.58z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M321.48 97.21L370.19 97.21L370.19 145.92L321.48 145.92z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M183.24 13.94L187.42 13.94L187.42 18.12L183.24 18.12z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M783.42 205.43L836.5 205.43L836.5 223.03L783.42 223.03z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1324.17 76.17 a46.81 46.81 0 1 0 93.62 0 a46.81 46.81 0 1 0 -93.62 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1148.32-5.43a49.84 49.84 0 1 0 19.01 97.86z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M108.6 550.7 a25.48 25.48 0 1 0 50.96 0 a25.48 25.48 0 1 0 -50.96 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M243.45 16.05 a42.79 42.79 0 1 0 85.58 0 a42.79 42.79 0 1 0 -85.58 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M828.88 37.79a37.43 37.43 0 1 0-67.31-32.76z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M698.01 158.48 a34.01 34.01 0 1 0 68.02 0 a34.01 34.01 0 1 0 -68.02 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1312.43 102.17L1352.87 102.17L1352.87 114.29L1312.43 114.29z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M927.46 467.71L939.27 467.71L939.27 487.44L927.46 487.44z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M814.66 324.56L868.28 324.56L868.28 361.72L814.66 361.72z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M76.77 94.18L88.88 94.18L88.88 145.23L76.77 145.23z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M332.95 30.65a22.18 22.18 0 1 0 23.44-37.66z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M541.96 188.93 a30.88 30.88 0 1 0 61.76 0 a30.88 30.88 0 1 0 -61.76 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M386.93 263.19a17.73 17.73 0 1 0 26.81-23.2z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M396.11 74.37L431.94 74.37L431.94 80.63L396.11 80.63z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M780.94 334.77L807.47 334.77L807.47 361.3L780.94 361.3z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M889.29 428.5L933.46 428.5L933.46 449.92L889.29 449.92z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M813.19 148.02L822.6 148.02L822.6 157.43L813.19 157.43z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1075.71 394.78L1079.35 394.78L1079.35 398.42L1075.71 398.42z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M957.81 351.47a24.13 24.13 0 1 0-48.18-2.8z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M463.24 349.26a10.56 10.56 0 1 0 20.04-6.66z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M732.31 427.46L733.68 427.46L733.68 465.41L732.31 465.41z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1267.64 356.28L1267.96 356.28L1267.96 368.14L1267.64 368.14z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1202.15 163.14L1239.83 163.14L1239.83 166.77L1202.15 166.77z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M980.46 397.01L1018.74 397.01L1018.74 443.49L980.46 443.49z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M633.28 144.46 a15.19 15.19 0 1 0 30.38 0 a15.19 15.19 0 1 0 -30.38 0z' fill='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1004'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/*
+  You can override any CSS Variable or style here
+  Example:
+
+  :root {
+   --sidenav-background: #333333;
+  }
+
+  All possible variables can be found in @vex/styles/core or by simply inspecting the element you want to change
+  in Chrome/Firefox DevTools
+*/
+
+/**
+  Uncomment the below code and adjust the values to fit your colors, the application will automatically adjust
+ */
+:root {
+    --color-primary: 13,104,37;
+    // --color-primary-contrast: white;
+    
+    --color-accent: 167,143,94;
+  // --color-accent-contrast: black;
+
+  // --color-warn: yellow;
+  // --color-warn-contrast: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.container {
+    padding-top: var(--padding-gutter);
+    padding-bottom: var(--padding-gutter);
+}
+
+.containerBotones {
+    padding-top: 0px;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+.margenBoton {
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.iconoBoton {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.dialogOverflow {
+    max-height: 80%;
+    width: 65%;
+    overflow: auto;
+}
+
+@media (max-width: 400px) {
+    .dialogOverflow {
+        max-width: 92vw !important;
+    }
+}
+
+.mat-input-element:disabled,
+.mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after {
+    color: black;
+}
+
+.mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-flex {
+    background-color: rgb(246, 246, 246);
+}
+
+.mat-checkbox-disabled .mat-checkbox-label {
+    color: black
+}
+
+.mat-select-disabled .mat-select-value {
+    color: black;
+}
+
+.mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-flex {
+    background-color: #f6f6f6;
+    border-bottom: #b0a9ba solid 1px;
+}
+
+.miniaturaImagen {
+    max-width: 150px;
+    max-height: 40px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.hoverRow {
+    cursor: pointer !important;
+}
+
+.popover {
+    left: -276px;
+}
+
+mat-expansion-panel {
+    border: 1px #f6f5f6 solid;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+// * * * MatTree reportes contables * * *
+.nodoEstadoResultados {
+    width: 100%;
+    padding: 5px 0px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.lineaTotal {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #f3feff;
+}
+
+.totalPositivo {
+    color: green;
+}
+
+.totalNegativo {
+    color: red;
+}
+
+.mat-tree-node {
+    min-height: 0px;
+}
+
+.logoLogin {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.logoSidenav {
+    max-width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fuenteInicioWidget {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.fuenteInicioWidgetSub {
+    font-size: 14px;
+    line-height: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-primary {
+    color: rgb(158, 197, 28) !important;
+}
+
+.text-accent {
+    color: rgb(1, 51, 82) !important;
+}
+
+table.tablaEstilos {
+    width: 100%;
+}
+
+.tablaEstilos tr td {
+    padding: 8px;
+    border: 1px #e2e1e2 solid;
+}
+
+.tablaEstilos tr th {
+    padding: 8px;
+    border: 1px #e2e1e2 solid;
+    font-size: small;
+}
+
+.tableInput {
+    width: 100%;
+    border: 1px #e2e1e2 solid;
+    border-radius: 6px;
+    padding: 2px 10px;
+    box-sizing: border-box;
+}
+
+.tableInputReducido {
+    width: 100%;
+    border: 1px #e2e1e2 solid;
+    border-radius: 6px;
+    padding: 2px 10px;
+    box-sizing: border-box;
+}
+
+.filaTotal, .tablaEstilos th {
+    font-weight: bold;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+.totalValor {
+    padding: 2px 6px;
+    border-radius: 10px;
+    color: white;
+}
+
+.mat-expansion-panel-header[aria-disabled=true] {
+    color: rgb(14 14 14);
+}
+
+.noMarginSelect mat-form-field {
+    margin-bottom: -1.34375em;
+}
+
+.quitarPaddingInput .mat-form-field-wrapper {
+    margin-bottom: -1.34375em;
+}
+
+.thumbnailImagen {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
